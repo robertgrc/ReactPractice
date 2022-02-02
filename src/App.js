@@ -2,7 +2,9 @@
 import './App.css';
 import Componente from './components/practice/Componente';
 import Componente2 from './components/practice/Componente2';
+import Estado from './components/practice/Estado';
 import Props from './components/practice/Props';
+
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
           elementoReact={<p>Este es un elemento react</p>}
           componenteReact={<Componente mensaje="soy un componente pasado como prop"/>}
        /> 
-       
+       <br/>
+       <hr/>
+       <Estado />
       </header>
     </div>
   );
