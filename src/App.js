@@ -1,22 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Componente from './components/practice/Componente';
+import Componente2 from './components/practice/Componente2';
+import Props from './components/practice/Props';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <Componente mensaje="este es un mensaje enviado al componente desde una prop"/>
+       <Componente2 msg="Mensaje2 enviado por props de componente2" />
+       <Props 
+          cadena="Esta es una cadena" 
+          numero={19} 
+          boleano={true}
+          arreglo={[1,2,3,4,5]}
+          funcion={(numero)=>numero*numero}
+          funcion2={(num)=>num*7}
+          objeto={{nombre:"robert", correo:"robert.rodriguez@gmail.com"}}
+          elementoReact={<p>Este es un elemento react</p>}
+          componenteReact={<Componente mensaje="soy un componente pasado como prop"/>}
+       /> 
+       
       </header>
     </div>
   );
