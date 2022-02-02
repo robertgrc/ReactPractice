@@ -4,6 +4,7 @@ import Componente from './components/practice/Componente';
 import Componente2 from './components/practice/Componente2';
 import Estado from './components/practice/Estado';
 import Props from './components/practice/Props';
+import RenderizadoCondicional from './components/practice/RenderizadoCondicional';
 
 
 
@@ -27,6 +28,7 @@ function App() {
        <br/>
        <hr/>
        <Estado />
+       <RenderizadoCondicional />
       </header>
     </div>
   );
