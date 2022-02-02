@@ -3,7 +3,8 @@ import './App.css';
 import Componente from './components/practice/Componente';
 import Componente2 from './components/practice/Componente2';
 import Estado from './components/practice/Estado';
-import Eventos from './components/practice/Eventos';
+import { EventosES6, EventosES7 } from './components/practice/Eventos';
+
 import Props from './components/practice/Props';
 import RenderizadoCondicional from './components/practice/RenderizadoCondicional';
 
@@ -30,7 +31,8 @@ function App() {
        <hr/>
        <Estado />
        <RenderizadoCondicional />
-       <Eventos />
+       <EventosES6 />
+       <EventosES7 />
       </header>
     </div>
   );
