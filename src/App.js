@@ -7,6 +7,7 @@ import { EventosES6, EventosES7, MasSobreEventos } from './components/practice/E
 
 import Props from './components/practice/Props';
 import RenderizadoCondicional from './components/practice/RenderizadoCondicional';
+import ComunicacionComponentes from './components/practice/ComunicacionComponentes'
 
 
 
@@ -34,6 +35,8 @@ function App() {
        <EventosES6 />
        <EventosES7 />
        <MasSobreEventos />
+       <hr/>
+       <ComunicacionComponentes />
       </header>
     </div>
   );
