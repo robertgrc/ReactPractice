@@ -84,7 +84,7 @@ export class EventosES7 extends Component{
 
 function Boton(props) {
     return(
-        <button>Boton hecho componente</button>
+        <button onClick={props.myOnClick}>Boton hecho componente</button>
     )
     
 }

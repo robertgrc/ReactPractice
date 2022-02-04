@@ -9,6 +9,7 @@ import Props from './components/practice/Props';
 import RenderizadoCondicional from './components/practice/RenderizadoCondicional';
 import ComunicacionComponentes from './components/practice/ComunicacionComponentes'
 import CicloVida from './components/practice/CicloVida';
+import AjaxApis from './components/practice/AjaxApis';
 
 
 
@@ -39,6 +40,7 @@ function App() {
        <hr/>
        <ComunicacionComponentes />
        <CicloVida />
+       <AjaxApis />
       </header>
     </div>
   );
