@@ -12,6 +12,7 @@ import CicloVida from './components/practice/CicloVida';
 import AjaxApis from './components/practice/AjaxApis';
 import ContadorHooks from './components/funcionalComponents/ContadorHooks';
 import ContadorDos from './components/funcionalComponents/ContadorDos';
+import ScrollHooks from './components/funcionalComponents/ScrollHooks';
 
 
 
@@ -46,6 +47,8 @@ function App() {
        <AjaxApis />
        <ContadorHooks />
        <ContadorDos />
+       <ScrollHooks />
+
       </header>
     </div>
   );
