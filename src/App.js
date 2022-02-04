@@ -11,6 +11,7 @@ import ComunicacionComponentes from './components/practice/ComunicacionComponent
 import CicloVida from './components/practice/CicloVida';
 import AjaxApis from './components/practice/AjaxApis';
 import ContadorHooks from './components/funcionalComponents/ContadorHooks';
+import ContadorDos from './components/funcionalComponents/ContadorDos';
 
 
 
@@ -44,6 +45,7 @@ function App() {
        <CicloVida />
        <AjaxApis />
        <ContadorHooks />
+       <ContadorDos />
       </header>
     </div>
   );
