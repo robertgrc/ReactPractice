@@ -8,6 +8,7 @@ import { EventosES6, EventosES7, MasSobreEventos } from './components/practice/E
 import Props from './components/practice/Props';
 import RenderizadoCondicional from './components/practice/RenderizadoCondicional';
 import ComunicacionComponentes from './components/practice/ComunicacionComponentes'
+import CicloVida from './components/practice/CicloVida';
 
 
 
@@ -37,6 +38,7 @@ function App() {
        <MasSobreEventos />
        <hr/>
        <ComunicacionComponentes />
+       <CicloVida />
       </header>
     </div>
   );
