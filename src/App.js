@@ -10,6 +10,8 @@ import RenderizadoCondicional from './components/practice/RenderizadoCondicional
 import ComunicacionComponentes from './components/practice/ComunicacionComponentes'
 import CicloVida from './components/practice/CicloVida';
 import AjaxApis from './components/practice/AjaxApis';
+import ContadorHooks from './components/funcionalComponents/ContadorHooks';
+
 
 
 
@@ -41,6 +43,7 @@ function App() {
        <ComunicacionComponentes />
        <CicloVida />
        <AjaxApis />
+       <ContadorHooks />
       </header>
     </div>
   );
