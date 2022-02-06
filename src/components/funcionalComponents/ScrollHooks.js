@@ -20,6 +20,12 @@ useEffect(()=>{
     console.log("Fase de actualizacion");
    });
    
+   useEffect(() => {
+     return () => {
+       console.log("Fase de desmontaje");
+     };
+   });
+   
 
     return(
         <>
