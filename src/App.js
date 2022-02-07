@@ -15,6 +15,7 @@ import ContadorDos from './components/funcionalComponents/ContadorDos';
 import ScrollHooks from './components/funcionalComponents/ScrollHooks';
 import RelojHooks from './components/funcionalComponents/RelojHooks';
 import AjaxHooks from './components/funcionalComponents/AjaxHooks';
+import HooksPersonalizados from './components/funcionalComponents/HooksPersonalizados';
 
 
 
@@ -52,6 +53,7 @@ function App() {
        <ScrollHooks />
        <RelojHooks />
        <AjaxHooks />
+       <HooksPersonalizados/>
 
       </header>
     </div>
