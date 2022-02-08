@@ -10,12 +10,13 @@ import Componente2 from './components/practice/Componente2';
 // import ComunicacionComponentes from './components/practice/ComunicacionComponentes'
 // import CicloVida from './components/practice/CicloVida';
 // import AjaxApis from './components/practice/AjaxApis';
-import ContadorHooks from './components/funcionalComponents/ContadorHooks';
-import ContadorDos from './components/funcionalComponents/ContadorDos';
-import ScrollHooks from './components/funcionalComponents/ScrollHooks';
-import RelojHooks from './components/funcionalComponents/RelojHooks';
-import AjaxHooks from './components/funcionalComponents/AjaxHooks';
-import HooksPersonalizados from './components/funcionalComponents/HooksPersonalizados';
+// import ContadorHooks from './components/funcionalComponents/ContadorHooks';
+// import ContadorDos from './components/funcionalComponents/ContadorDos';
+// import ScrollHooks from './components/funcionalComponents/ScrollHooks';
+// import RelojHooks from './components/funcionalComponents/RelojHooks';
+// import AjaxHooks from './components/funcionalComponents/AjaxHooks';
+// import HooksPersonalizados from './components/funcionalComponents/HooksPersonalizados';
+import Referencias from './components/funcionalComponents/Referencias';
 
 
 
@@ -37,8 +38,8 @@ function App() {
           elementoReact={<p>Este es un elemento react</p>}
           componenteReact={<Componente mensaje="soy un componente pasado como prop"/>}
        />  */}
-       <br/>
-       <hr/>
+       {/* <br/>
+       <hr/> */}
        {/* <Estado />
        <RenderizadoCondicional />
        <EventosES6 />
@@ -48,12 +49,13 @@ function App() {
        <ComunicacionComponentes />
        <CicloVida />
        <AjaxApis /> */}
-       <ContadorHooks />
+       {/* <ContadorHooks />
        <ContadorDos />
        <ScrollHooks />
        <RelojHooks />
-       <AjaxHooks />
-       <HooksPersonalizados/>
+       <AjaxHooks /> 
+       <HooksPersonalizados/> */}
+       <Referencias/>
 
       </header>
     </div>
