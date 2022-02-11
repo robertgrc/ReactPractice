@@ -17,6 +17,10 @@ import Componente2 from './components/practice/Componente2';
 // import AjaxHooks from './components/funcionalComponents/AjaxHooks';
 // import HooksPersonalizados from './components/funcionalComponents/HooksPersonalizados';
 import Referencias from './components/funcionalComponents/Referencias';
+import Formularios from './components/funcionalComponents/Formularios';
+import Estilos from './components/funcionalComponents/Estillos';
+
+// import Referencias2 from './components/funcionalComponents/Referencias2';
 
 
 
@@ -55,7 +59,10 @@ function App() {
        <RelojHooks />
        <AjaxHooks /> 
        <HooksPersonalizados/> */}
+       {/* <Referencias2/> */}
        <Referencias/>
+       <Formularios />
+       <Estilos />
 
       </header>
     </div>

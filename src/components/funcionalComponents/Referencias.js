@@ -1,36 +1,48 @@
-import React from 'react';
+import React, { createRef, useRef } from "react";
 
-export default function Referencias(){
+export default function Referencias() {
+  //let refMenu = createRef(),
+  let refMenu = useRef(),
+    refMenuBtn = useRef();
 
-    const handleToggleMenu = (e) => {
-        const $menu =document.getElementById("menu");
-        console.log(e);
+  //console.log(refMenu, refMenuBtn);
 
-    if (e.target.textContent === "Menu"){
-        e.target.textContent="Cerrar";
-        $menu.style.display = "block"
-        } else{
-            e.target.textContent="Menu";
-            $menu.style.display = "none"
-        }
+  const handleToggleMenu = (e) => {
+    /* const $menu = document.getElementById("menu");
+    if (e.target.textContent === "Menú") {
+      e.target.textContent = "Cerrar";
+      $menu.style.display = "block";
+    } else {
+      e.target.textContent = "Menú";
+      $menu.style.display = "none";
+    } */
 
-    };
+    if (refMenuBtn.current.textContent === "Menú") {
+      refMenuBtn.current.textContent = "Cerrar";
+      refMenu.current.style.display = "block";
+    } else {
+      refMenuBtn.current.textContent = "Menú";
+      refMenu.current.style.display = "none";
+    }
+  };
 
-    return(
-        <>
-         <h2>Referencias</h2>
-         <button id="menu-btn" onClick={handleToggleMenu}>Menu</button>
-         <nav id="menu" style={{display:'none'}}>
-             <a href="#">Seccion1</a>
-             <br />
-             <a href="#">Seccion2</a>
-             <br />
-             <a href="#">Seccion3</a>
-             <br />
-             <a href="#">Seccion4</a>
-             <br />
-             <a href="#">Seccion5</a>
-         </nav>
-        </>
-    )
+  return (
+    <>
+      <h2>Referencias</h2>
+      <button id="menu-btn" ref={refMenuBtn} onClick={handleToggleMenu}>
+        Menú
+      </button>
+      <nav id="menu" ref={refMenu} style={{ display: "none" }}>
+        <a href="#">Sección 1</a>
+        <br />
+        <a href="#">Sección 2</a>
+        <br />
+        <a href="#">Sección 3</a>
+        <br />
+        <a href="#">Sección 4</a>
+        <br />
+        <a href="#">Sección 5</a>
+      </nav>
+    </>
+  );
 }
